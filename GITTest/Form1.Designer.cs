@@ -30,6 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.lblTest = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -51,11 +52,22 @@
             this.label2.TabIndex = 1;
             this.label2.Text = ".";
             // 
+            // lblTest
+            // 
+            this.lblTest.AutoSize = true;
+            this.lblTest.Location = new System.Drawing.Point(114, 100);
+            this.lblTest.Name = "lblTest";
+            this.lblTest.Size = new System.Drawing.Size(55, 13);
+            this.lblTest.TabIndex = 2;
+            this.lblTest.Text = "Jason test";
+            this.lblTest.Click += new System.EventHandler(this.label3_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.lblTest);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
@@ -69,6 +81,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblTest;
     }
 }
 

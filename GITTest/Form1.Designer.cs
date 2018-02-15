@@ -38,6 +38,8 @@
             this.lblHamzah = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -115,21 +117,39 @@
             // 
             // label8
             // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(51, 77);
+            this.label10.Name = "label8";
+            this.label10.Size = new System.Drawing.Size(30, 13);
+            this.label10.TabIndex = 6;
+            this.label10.Text = "katie";
+            // 
+            // label8
+            // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(166, 179);
+            this.label8.Location = new System.Drawing.Point(148, 196);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(34, 13);
+            this.label8.Size = new System.Drawing.Size(25, 13);
             this.label8.TabIndex = 6;
-            this.label8.Text = "take2";
+            this.label8.Text = "BOI";
+            // 
+            // label8
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(166, 179);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(34, 13);
+            this.label9.TabIndex = 6;
+            this.label9.Text = "take2";
             // 
             // label9
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(135, 213);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(34, 13);
-            this.label9.TabIndex = 7;
-            this.label9.Text = "take3";
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(135, 213);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(34, 13);
+            this.label11.TabIndex = 7;
+            this.label11.Text = "take3";
             // 
             // Form1
             // 
@@ -138,6 +158,8 @@
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -165,6 +187,8 @@
         private System.Windows.Forms.Label lblHamzah;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label11;
     }
 }
 

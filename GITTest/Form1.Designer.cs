@@ -32,6 +32,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.lblHamzah = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -71,11 +72,21 @@
             this.label4.TabIndex = 2;
             this.label4.Text = "Not tom!";
             // 
+            // lblHamzah
+            // 
+            this.lblHamzah.AutoSize = true;
+            this.lblHamzah.Location = new System.Drawing.Point(13, 44);
+            this.lblHamzah.Name = "lblHamzah";
+            this.lblHamzah.Size = new System.Drawing.Size(46, 13);
+            this.lblHamzah.TabIndex = 3;
+            this.lblHamzah.Text = "Hamzah";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.lblHamzah);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -93,6 +104,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lblHamzah;
     }
 }
 
